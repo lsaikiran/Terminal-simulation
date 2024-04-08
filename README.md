@@ -5,7 +5,7 @@ This Python script simulates the operations of a container terminal, where vesse
 
 **Features:**
 - Simulates the arrival of vessels at the terminal according to an exponential distribution.
-- Utilizes SimPy, a process-based discrete-event simulation framework.
+- Utilizes [SimPy](https://simpy.readthedocs.io/en/latest/contents.html), a process-based discrete-event simulation framework.
 - Tracks the movement of containers from vessels to trucks, considering resource constraints such as berth availability, crane capacity, and truck availability.
 - Provides real-time logging of events during the simulation for monitoring and analysis.
 
@@ -18,7 +18,7 @@ This Python script simulates the operations of a container terminal, where vesse
 
 **Dependencies:**
 - Python 3.x
-- SimPy library
+- [SimPy](https://simpy.readthedocs.io/en/latest/contents.html) library
 
 **How to Use:**
 1. Ensure Python and SimPy library are installed on your system.
